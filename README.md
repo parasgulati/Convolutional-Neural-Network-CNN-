@@ -4,6 +4,7 @@ Here I have used MNIST Hand written digits dataset.<br/><br/>
 <br/>It contains 60,000 training images and 10,000 testing images each of 28 x 28 dimensions represented by pixel matirx.
 <br/>The model of cnn is shown<br/> 
 there are various layers.It recognises digits image with an accuracy of 97.58 %
+<br/>
 ![mode](https://github.com/parasgulati/Convolutional-Neural-Network-CNN-/blob/master/c.jpeg)
 input image is of (m X n).
 <h4>filter</h4> this multiply corresponding element of filter matrix and image matrix pixel values and sum them all and keep it in new image matrix.It is also known as kernel or weight matrix.
@@ -19,20 +20,24 @@ ReLU stands for Rectified Linear unit.This changes all negative values to zero.T
 <br>
 Now the extracted pixel value matrix is converted into a list of pixel intensity values.
 This list has (m-x-l-2 * n-y-2-k) pixel values and it is feed into a fully connected neural network having  (m-x-l-2 * n-y-2-k) neurons in input layer.
-<br>e 
-![denselayer](https://github.com/parasgulati/Convolutional-Neural-Network-CNN-/blob/master/dense%20layer.png)
+<br>![denselayer](https://github.com/parasgulati/Convolutional-Neural-Network-CNN-/blob/master/dense%20layer.png)<br>
 We can take any number of neurons in hidden layer,it is a hyper parameter
 Weights tells how much feature of corresponding neuron will be inherited to the corresponding neuron in the next layer. 
-<br>
+
 ![img1](https://github.com/parasgulati/Convolutional-Neural-Network-CNN-/blob/master/img1.jpg)
-<br>
 <h3>softmax activation function</h3>
 This will give probabilty of an image to be a image of different number. whose probability is higher that's our anser.
+<br/>
 ![softmax](https://github.com/parasgulati/Convolutional-Neural-Network-CNN-/blob/master/softmax.png)
+<br/>
 <h3>But one important thing how to update weight matrix of neural network, this helps to minimize the error i.e by gradient descent</h3>
+<br/>
 ![gradient descent](https://github.com/parasgulati/Convolutional-Neural-Network-CNN-/blob/master/gradient%20descent.jpg)
+<br/>
 ![gradient theta](https://github.com/parasgulati/Convolutional-Neural-Network-CNN-/blob/master/gradient%20function.png)
+<br>
 ![cost function](htpts://github.com/parasgulati/Convolutional-Neural-Network-CNN-/blob/master/cost.jpg)
+<br>
 The theta is updates till we get minimum cost function i.e till it converges to global minima.
 <h3>Applying Regularization</h3>
 To overcome the problem of over fitting we randomly put the weights of any neuron to zero. 
