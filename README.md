@@ -1,3 +1,5 @@
+# Digits Recognition using CNN
+
 CNN is a Neural network that is used for image classification.<br/>
 Here I have used MNIST Hand written digits dataset.<br/><br/>
 ![dataset](https://github.com/parasgulati/Convolutional-Neural-Network-CNN-/blob/master/we.jpg)
