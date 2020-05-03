@@ -34,11 +34,11 @@ This will give probabilty of an image to be a image of different number. whose p
 <br/>
 <h3>But one important thing how to update weight matrix of neural network, this helps to minimize the error i.e by gradient descent</h3>
 <br/>
-![gradient descent](https://github.com/parasgulati/Convolutional-Neural-Network-CNN-/blob/master/gradient%20descent.jpg)
+![gradientdescent](https://github.com/parasgulati/Convolutional-Neural-Network-CNN-/blob/master/gradient%20descent.jpg)
 <br/>
-![gradient theta](https://github.com/parasgulati/Convolutional-Neural-Network-CNN-/blob/master/gradient%20function.png)
+![gradientfunction](https://github.com/parasgulati/Convolutional-Neural-Network-CNN-/blob/master/gradient%20function.png)
 <br>
-![cost function](htpts://github.com/parasgulati/Convolutional-Neural-Network-CNN-/blob/master/cost.jpg)
+![cost](htpts://github.com/parasgulati/Convolutional-Neural-Network-CNN-/blob/master/cost.jpg)
 <br>
 The theta is updates till we get minimum cost function i.e till it converges to global minima.
 <h3>Applying Regularization</h3>
